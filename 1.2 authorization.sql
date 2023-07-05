@@ -1,0 +1,2 @@
+ALTER AUTHORIZATION ON DATABASE::FirmaProiect TO sa
+go
