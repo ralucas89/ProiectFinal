@@ -19,7 +19,7 @@ and salariu > 6000;
 -- 5. sa se afiseze toti angajatii ce isi serbeaza ziua in luna ianuarie
 select id, nume, data_nasterii from angajati where month(data_nasterii)=1
 
---6. sa se afiseze toti angajatii care nu au pozitia ‘Programator’ sau ‘Manager’
+--6. sa se afiseze toti angajatii care nu au pozitia â€˜Programatorâ€™ sau â€˜Managerâ€™
 select nume, departament from angajati where departament not in ('Programtor', 'Manager')
 
 --7. sa se afiseze datele celui mai batran angajat. 
